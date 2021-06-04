@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.DetailUser"
+    android:id="@+id/container"
+    tools:showIn="@layout/activity_detail_user">
+
+    <TextView
+        android:id="@+id/tvDetailName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        tools:text="@string/user_name"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="200dp" />
+
+    <ImageView
+        android:id="@+id/cardCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        app:layout_constraintEnd_toStartOf="@id/cardLocation"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailName"
+        android:src="@drawable/ic_company"
+        android:contentDescription="@string/desc_image_company"/>
+    <TextView
+        android:id="@+id/tvDetailCompany"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="wrap_content"
+        tools:text="@string/company"
+        android:maxWidth="150dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/cardCompany"
+        app:layout_constraintStart_toStartOf="@id/cardCompany"
+        app:layout_constraintEnd_toEndOf="@id/cardCompany"
+        android:textSize="@dimen/_13sp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/cardLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:src="@drawable/ic_location"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toRightOf="@id/cardCompany"
+        app:layout_constraintRight_toLeftOf="@id/cardRepository"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailName"
+        android:contentDescription="@string/desc_image_location"/>
+    <TextView
+        android:id="@+id/tvDetailLocation"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="wrap_content"
+        tools:text="@string/location"
+        android:textSize="@dimen/_13sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/cardLocation"
+        app:layout_constraintStart_toStartOf="@id/cardLocation"
+        app:layout_constraintEnd_toEndOf="@id/cardLocation"
+
+        />
+
+    <ImageView
+        android:id="@+id/cardRepository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/cardLocation"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailName"
+        android:src="@drawable/ic_repository"
+        android:contentDescription="@string/desc_image_repo"
+        />
+
+    <TextView
+        android:id="@+id/tvDetailRepository"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="wrap_content"
+        tools:text="@string/repository"
+        android:textSize="@dimen/_13sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/cardRepository"
+        app:layout_constraintStart_toStartOf="@id/cardRepository"
+        app:layout_constraintEnd_toEndOf="@id/cardRepository"/>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorBlue"
+        app:tabTextColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@id/cardLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabs"
+        app:layout_constraintStart_toStartOf="@id/tabs"
+        app:layout_constraintEnd_toEndOf="@id/tabs"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

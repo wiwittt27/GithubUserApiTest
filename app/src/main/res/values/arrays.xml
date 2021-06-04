@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="language_entries">
+        <item>@string/indo_lang</item>
+        <item>@string/eng_lang</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>in</item>
+        <item>en</item>
+    </string-array>
+</resources>

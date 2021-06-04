@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">GithubUserApi</string>
+
+    <string name = "user_search"> Search  Users </string>
+    <string name = "user_name"> Username </string>
+    <string name = "username"> Username </string>
+    <string name = "user_photo"> Profile picture </string>
+
+    <string name = "company"> Company </string>
+    <string name = "location"> Location </string>
+    <string name = "repository"> Repository </string>
+
+
+    <string name = "tab_following"> Following </string>
+    <string name = "tab_followers"> Followers </string>
+    <string name = "account_not_found"> ​​Account not found :( </string>
+    <string name = "image_not_found"> ​​Image Not Found </string>
+    <string name = "image_navigate_next"> Image navigate next </string>
+    <string name = "network_error"> Check Your Connection </string>
+    <string name = "title_toolbar"> Github User App </string>
+    <string name = "title_morning"> Good Morning </string>
+    <string name = "title_afternoon"> Good Afternoon </string>
+    <string name = "title_evening"> Good Evening </string>
+    <string name = "title_night"> Good Night </string>
+
+
+    <string name = "desc_image"> Image Profile </string>
+
+    <string name = "desc_image_repo"> Repository Image </string>
+    <string name = "desc_image_location"> Image Location </string>
+    <string name = "desc_image_company"> Company Image </string>
+    <string name = "desc_favorite"> Favorites </string>
+    <string name = "followers_empty"> No Followers </string>
+    <string name = "following_empty"> Nothing followed </string>
+    <string name="set_lang">Seting</string>
+    <string name="favorite_label">Favorite</string>
+    <string name = "empty_favorite"> Empty Data </string>
+    <string name = "exit_label"> Exit </string>
+    <string name = "setting_label"> Settings </string>
+    <string name = "succes_add"> Added to favorites </string>
+    <string name = "title_seeData"> View data </string>
+    <string name = "succes_delete"> Deleted Successfully </string>
+    <string name = "setting_reminder"> Reminder Settings </string>
+    <string name="reminder_at">Reminder at 09.00 AM</string>
+    <string name = "setting_language"> Language Settings </string>
+    <string name = "indo_lang"> Indonesian </string>
+    <string name = "eng_lang"> English </string>
+    <string name = "language_title"> Select Language </string>
+    <string name = "reminder_off"> Reminder Off </string>
+    <string name = "title_back_application"> Time to Return to the Application </string>
+    <string name = "title_set_reminder"> Reminders are set on </string>
+
+
+</resources>

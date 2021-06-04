@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GithubUserApi</string>
+
+    <string name="key_switch" translatable="false">key_switch</string>
+    <string name="key_languaage" translatable="false">language</string>
+
+    <string name="user_search">Cari Pengguna</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="username">Username</string>
+    <string name="user_photo">Foto Profil</string>
+
+    <string name="company">Perusahaan</string>
+    <string name="location">Lokasi</string>
+    <string name="repository">Repository</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_following">Diikuti</string>
+    <string name="tab_followers">Pengikut</string>
+    <string name="account_not_found">Akun tidak ditemukan :(</string>
+    <string name="image_not_found">Image Not Found</string>
+    <string name="image_navigate_next">Image navigate next</string>
+    <string name="network_error">Periksa Koneksi Anda</string>
+    <string name="title_toolbar">Github User App</string>
+    <string name="title_morning">Selemat Pagi</string>
+    <string name="title_afternoon">Selamat Siang</string>
+    <string name="title_evening">Selemat Sore</string>
+    <string name="title_night">Selamat Malam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="desc_image">Image Profile</string>
+
+    <string name="desc_image_repo">Gambar Repository</string>
+    <string name="desc_image_location">Gambar Lokasi</string>
+    <string name="desc_image_company">Gambar Perusahaan</string>
+    <string name="desc_favorite">Favorit</string>
+
+    <string name="followers_empty">Tidak ada Pengikut</string>
+    <string name="following_empty">Tidak ada yang diikuti</string>
+    <string name="set_lang">Pengaturan</string>
+    <string name="favorite_label">Favorite</string>
+    <string name="empty_favorite">Data Kosong</string>
+    <string name="exit_label">Keluar</string>
+    <string name="setting_label">Pengaturan</string>
+    <string name="succes_add">Ditambahkan ke favorite</string>
+    <string name="title_seeData">Lihat data</string>
+    <string name="succes_delete">Berhasil Dihapus</string>
+
+    <string name="setting_reminder">Pengaturan Pengingat</string>
+    <string name="reminder_at">Pengingat pada Jam 09.00 AM</string>
+    <string name="setting_language">Pengaturan Bahasa</string>
+    <string name="indo_lang">Bahasa Indonesia</string>
+    <string name="eng_lang">Bahasa Inggris</string>
+    <string name="language_title">Pilih Bahasa</string>
+    <string name="reminder_off">Pengingat Mati</string>
+    <string name="title_back_application">Saatnya Kembali ke Aplikasi</string>
+    <string name="title_set_reminder">Pengingat disetel pada</string>
+
+</resources>

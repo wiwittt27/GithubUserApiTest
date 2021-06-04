@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/setting_reminder">
+
+        <SwitchPreference
+            app:icon="@drawable/ic_notifications"
+            app:key="@string/key_switch"
+            app:title="@string/reminder_at"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_language">
+
+        <ListPreference
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:icon="@drawable/ic_language"
+            android:key="@string/key_languaage"
+            android:summary="%1$s"
+            android:dialogTitle="@string/language_title"
+            android:title="@string/language_title"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

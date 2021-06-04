@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/user_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/itemFavorite"
+        android:title="@string/set_lang"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="always"/>
+    <group android:menuCategory="container">
+        <item android:id="@+id/itemSetting"
+            android:title="@string/setting_label" />
+        <item android:id="@+id/itemExit"
+            android:title="@string/exit_label"
+            app:showAsAction="collapseActionView" />
+    </group>
+
+
+</menu>
